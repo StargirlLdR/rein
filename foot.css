@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brain
+{
+    background-image: url('https://clck.ru/36fTeb'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+.car
+{
+    margin-top: 250px;
+    width: 300px;
+	height: 300px;
+    left: -200px;
+    display: flex;
+    animation: star 5s forwards;
+}
+.body_bag2
+{
+    position: absolute;
+    width: 300px;
+	height: 140px;
+	background: red;
+    margin-left: 0px;
+    display: flex;
+    margin-top: 240px;
+}
+.bag
+{
+    width: 100px;
+	height: 110px;
+    background: deepskyblue;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 150px;
+}
+
+.body_bag
+{
+    
+    width: 150px;
+	height: 120px;
+	background: red;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 120px;
+}
+
+.wheel_1 {
+    width: 100px;
+    height: 100px;
+    background: #0d1b01;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    margin: 10px;
+    margin-top: 70px;
+}
+
+.wheel_2
+{
+    width: 100px;
+    height: 100px;
+    background: #0d1b01;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    margin-left: 55px;
+    margin-top: 70px;
+
+}
+
+@keyframes star 
+{
+    100%
+    {
+        left: calc(100vw - 250px);
+    }
+
+}
